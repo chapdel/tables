@@ -2,10 +2,10 @@
     "name": "chapdel/tables",
     "description": "Effortlessly build TALL-powered tables.",
     "license": "MIT",
-    "homepage": "https://github.com/laravel-filament/filament",
+    "homepage": "https://github.com/chapdelfilament",
     "support": {
-        "issues": "https://github.com/laravel-filament/filament/issues",
-        "source": "https://github.com/laravel-filament/filament"
+        "issues": "https://github.com/chapdel/filament/issues",
+        "source": "https://github.com/chapdel/filament"
     },
     "require": {
         "php": "^8.0",

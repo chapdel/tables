@@ -1,0 +1,40 @@
+{
+    "name": "chapdel/tables",
+    "description": "Effortlessly build TALL-powered tables.",
+    "license": "MIT",
+    "homepage": "https://github.com/laravel-filament/filament",
+    "support": {
+        "issues": "https://github.com/laravel-filament/filament/issues",
+        "source": "https://github.com/laravel-filament/filament"
+    },
+    "require": {
+        "php": "^8.0",
+        "blade-ui-kit/blade-heroicons": "^1.2",
+        "filament/forms": "self.version",
+        "illuminate/console": "^8.6|^9.0",
+        "illuminate/contracts": "^8.6|^9.0",
+        "illuminate/database": "^8.6|^9.0",
+        "illuminate/filesystem": "^8.6|^9.0",
+        "illuminate/support": "^8.6|^9.0",
+        "illuminate/view": "^8.6|^9.0",
+        "livewire/livewire": "^2.6",
+        "spatie/laravel-package-tools": "^1.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Filament\\Tables\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Filament\\Tables\\TablesServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
